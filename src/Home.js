@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const Home = () => {
+<<<<<<< HEAD
   const [blogs, setBlogs] = useState([
     {
       title: "My new website",
@@ -30,6 +31,23 @@ const Home = () => {
           <p>Written by {blog.author}</p>
         </div>
       ))}
+=======
+  const [name, setName] = useState("Dean");
+  const [age, setAge] = useState(25);
+
+  const handleClick = () => {
+    setName("nos");
+    setAge(31);
+  };
+
+  return (
+    <div className="home">
+      <h2>Homepage</h2>
+      <p>
+        {name} is {age} years old
+      </p>
+      <button onClick={handleClick}>click</button>
+>>>>>>> 3f64ea8e18827e6f2d3383f96fa230d8ef925653
     </div>
   );
 };
