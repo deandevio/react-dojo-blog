@@ -1,9 +1,5 @@
 # React blog using json server
 
-## Available Scripts
-
-In the project directory, you can run:
-
 ### How to run this project
 
 - Clone the git repo.
